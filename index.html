@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>stajyer giris</title>
+    <style>
+        /* Custom styles for centering the container */
+        .body-bg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffff; 
+        }
+        body{
+            background-color: #0093E9;
+        background-image: linear-gradient(296deg, #0093E9 0%, #80D0C7 50%, #65df9b 100%);
+
+        }        
+        button{
+            width : fit-content ;
+            position:relative;
+
+        }
+            .btn-grad {
+            background-image: linear-gradient(to right, #348F50 0%, #56B4D3 51%, #348F50 100%);
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            border: none; 
+            cursor: pointer;
+        }
+
+        .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .colorful-form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+                <!-- Logo-->
+                <a href="#" class="logo"><img src="logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ANASAYFA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">DUYURULAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">GİRİŞ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="kayit.html">KAYIT OL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5 center-form">
+        <div class="row justify-content-center">
+            <div class="col-md-6 colorful-form">
+                <h2 class="text-center mb-4">GİRİŞ</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">E-mail/Telefon Numarası</label>
+                        <input type="text" class="form-control form-control-sm" id="username" name="username" required
+                            placeholder="csbstaj@gmail.com/555 555 55 55">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Şifre</label>
+                        <input type="password" class="form-control form-control-sm" id="password" name="password"
+                            required placeholder="password1234">
+                    </div>
+                    <div class="d-grid">
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-grad">KAYDET</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+    
+    
+    
+    <!-- <div class="d-inline-flex p-2 bd-highlight card-footer text-center mt-3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil nam, sapiente nisi voluptate optio
+        consequatur, eveniet quae dolor eos aliquam molestiae modi quisquam corporis beatae ea rem tempora tenetur,
+        nobis quibusdam culpa quaerat deserunt maxime eaque? Aut fugiat nobis rem alias laboriosam libero, earum est
+        in labore voluptatum eveniet illum tenetur error sunt fugit! Ipsam laboriosam alias quidem doloremque sint?
+    </div> -->
+    </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
